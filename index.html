@@ -7,54 +7,53 @@
     <title>Hello Timmy</title>
     <script src="script.js"></script>
     <style>
-      *{
-            padding: 0;
-            margin: 0;
-            text-decoration: none;
-            list-style: none;
-            box-sizing: border-box;
+      * {
+        text-decoration: none;
+        list-style: none;
+      }
 
-        }
-      
-      
-      body{
-         background-color: gray;
-        
-        }
+      body {
+        background-color: gray;
+      }
 
-        nav{
-            background-color: #32CD32;
-            height: 80px;
-            width: 100%;    
-        }
+      nav {
+        background-color: #32cd32;
+        height: 80px;
+        width: 100%;
+      }
 
-        label.logo{
-            color: white;
-            font-size: 35px;
-            line-height: 80px;
-            padding: 0 100px;
-            font-weight: bold;
-        }
+      label.logo {
+        color: white;
+        font-size: 35px;
+        line-height: 80px;
+        padding: 0 100px;
+        font-weight: bold;
+      }
 
-        nav ul{
-            float:right;
-            margin: right;
-        }
+      nav ul {
+        float: right;
+        margin: right;
+      }
 
-        nav ul li{
-            display: inline-block;
-            line-height: 80px;
-            margin: 0 50px;
-        }
+      nav ul li {
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 50px;
+      }
 
-        nav ul li a{
-            color: white;
-            font-size:17px ;
-            text-transform: uppercase;
-        }
-   
-      
-      
+      nav ul li a {
+        color: white;
+        font-size: 17px;
+        text-transform: uppercase;
+      }
+
+      li:hover {
+        background-color: grey;
+        width: 100px;
+        border-radius: 10px;
+        margin: auto;
+      }
+
       h1 {
         color: white;
         font-weight: bold;
@@ -66,7 +65,7 @@
         height: 50px;
         padding: 20px auto;
         border-radius: 10px;
-        background-color:#32CD32;
+        background-color: #32cd32;
         color: black;
         font-size: 20px;
         margin-left: 10px;
@@ -84,20 +83,27 @@
         padding: 20px;
         border-radius: 10px;
       }
+
+      select {
+        width: 300px;
+        height: 40px;
+        border-radius: 10px;
+        padding: auto;
+        text-align: center;
+      }
     </style>
   </head>
   <body>
-    
     <nav>
-        <label class="logo">Timmy's repo</label>
+      <label class="logo">Timmy's repo</label>
 
-        <ul>
-            <li><a href="#"></a>HOME</li>
-            <li><a href="#"></a>ABOUT</li>
-            <li><a href="#"></a>REPOSITRY</li>
-        </ul>
+      <ul>
+        <li><a href="#"></a>HOME</li>
+        <li><a href="#"></a>ABOUT</li>
+        <li><a href="#"></a>REPOSITORY</li>
+      </ul>
     </nav>
-    
+
     <h1>Welcome to Timmy's repository</h1>
 
     <p>
@@ -122,5 +128,12 @@
       <h2>Peace out see you soon bro !!</h2>
       <h1>THANK YOU !!</h1>
     </article>
+    <h3>Pick your choice :</h3>
+    <select>
+      <option value="Nicki Minaj">Nicki</option>
+      <option value="Cardi B">Cardi</option>
+      <option value="fella makafui">fella</option>
+      <option value="Tems">Tems</option>
+    </select>
   </body>
 </html>
